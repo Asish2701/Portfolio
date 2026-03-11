@@ -7,6 +7,7 @@ import { Contact } from './components/Contact';
 import { ChatWidget } from './components/ChatWidget';
 import { motion, useScroll, useSpring, useMotionValue, useMotionTemplate } from 'framer-motion';
 import MaskReveal from './components/MaskReveal';
+import { Analytics } from '@vercel/analytics/react';
 
 const App: React.FC = () => {
   const { scrollYProgress } = useScroll();
@@ -83,6 +84,7 @@ const App: React.FC = () => {
       </main>
 
       <ChatWidget />
+      <Analytics />
     </div>
   );
 };
