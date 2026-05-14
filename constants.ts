@@ -54,8 +54,8 @@ export const EDUCATION: Education[] = [
 ];
 
 export const SKILLS: Skill[] = [
-  {, WB",
-    degree: "B.Languages",
+  {
+    category: "Programming Languages",
     items: ["Python (Advanced)", "Java", "C", "SQL (Advanced Queries)"]
   },
   {
@@ -72,18 +72,13 @@ export const SKILLS: Skill[] = [
   },
   {
     category: "Certifications & Achievements",
-    items: ["HackerRank Python 5-Star Gold Badge", "Python Flask Framework (Scalable Web Applications & RESTful APIs)", "Team Kalakriti - Lead Creative Direction at Safalya Educational Fest
-    period: "ndas", "NumPy", "Power BI", "Flask", "Matplotlib"]
+    items: ["HackerRank Python 5-Star Gold Badge", "Python Flask Framework (Scalable Web Applications & RESTful APIs)", "Team Kalakriti - Lead Creative Direction at Safalya Educational Fest"]
   },
-  {
-    category: "Certifications",
-    items: ["HackerRank Python Advanced - 5-Star Gold Badge", "Python Flask Framework Certificate", "Google Data Analytics - Coursera (In Progress)"]
-  }
 ];
 
 export const SOCIAL_LINKS = [
-  { name: 'LinkedIn', url: PERSONAL_INFO.linkedin, icon: Linkedin },
-  { name: 'GitHub', url: PERSONAL_INFO.github, icon: Github },
-  { name: 'Email', url: `mailto:${PERSONAL_INFO.email}`, icon: Mail },
-  { name: 'Phone', url: `tel:${PERSONAL_INFO.phone}`, icon: Phone },
+  { name: "LinkedIn", url: PERSONAL_INFO.linkedin, icon: Linkedin },
+  { name: "GitHub", url: PERSONAL_INFO.github, icon: Github },
+  { name: "Email", url: `mailto:${PERSONAL_INFO.email}`, icon: Mail },
+  { name: "Phone", url: `tel:${PERSONAL_INFO.phone}`, icon: Phone }
 ];
