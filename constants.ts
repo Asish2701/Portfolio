@@ -4,51 +4,44 @@ import { Github, Linkedin, Mail, Phone } from 'lucide-react';
 
 export const PERSONAL_INFO = {
   name: "Asish Sharma",
-  role: "Data Science Undergraduate | Python | Machine Learning | BI & Visualization",
+  role: "Data Scientist | 3rd Year B.Tech (Data Science) | Python | ML & Predictive Modeling",
   email: "asish.off@gmail.com",
-  phone: "8535924784",
+  phone: "+91 8535924784",
   linkedin: "https://www.linkedin.com/in/asishsharma27",
   github: "https://github.com/Asish2701",
-  location: "Kolkata, West Bengal, India",
-  about: "Second-year B.Tech student in CSE (Data Science) at Techno Main Salt Lake with hands-on experience building machine learning models, BI dashboards, and data-driven web applications. Strong in Python, analytics, and turning raw data into clear decisions, currently seeking data science internship opportunities.",
+  location: "Kharagpur, West Bengal, India",
+  about: "Aspiring Data Scientist and 3rd-year CS (Data Science) undergraduate at Techno Main Salt Lake with hands-on experience in predictive modeling, exploratory data analysis, and ML deployment. Passionate about building data-driven solutions to real-world problems including electoral analytics and market intelligence.",
   profilePic: "/asish-profile.png"
 };
 
 export const PROJECTS: Project[] = [
   {
+    title: "WB 2026 Election Result Predictor",
+    description: "Built an end-to-end multiclass classifier predicting winning party across all 294 West Bengal Assembly seats. Engineered features from 3 election datasets using custom PC-to-AC seat mapping. Achieved 70.3% Macro F1 with 4 progressive scenario models (Baseline → Margin Squeeze → Anti-Incumbency → All Factors) for strategic analysis. Deployed public-facing Streamlit app with seat-level flip risk scoring and Power BI-ready exports.",
+    link: "#",
+    tags: ["Python", "Scikit-learn", "Streamlit", "Power BI", "Predictive Modeling"]
+  },
+  {
+    title: "EquityLens — Stock Forecast Platform",
+    description: "Building a real-time stock analysis platform aggregating analyst target prices via IndianAPI across 90D/60D/30D/1W snapshots. Architected full-stack system with React frontend and FastAPI backend deployed on Vercel. Implemented server-side API key management and designed scoring engine for buy/hold/cautious signals based on analyst consensus.",
+    link: "#",
+    tags: ["Python", "FastAPI", "React", "Scikit-learn", "In Progress"]
+  },
+  {
     title: "Market Basket Analyzer",
-    description: "Analyzed 100K+ retail transactions using Apriori and FP-Growth, surfaced the top 50 high-confidence association rules, and exposed cross-sell recommendations through a Flask REST API.",
-    link: "https://market-basket-analysis-dashboard.vercel.app/",
-    tags: ["Python", "Apriori", "FP-Growth", "Flask API"]
-  },
-  {
-    title: "BI Dashboard and Advanced EDA",
-    description: "Built a multi-page Power BI dashboard with 6 KPI categories, drill-through analysis, regression overlays, and anomaly flags across 50,000+ records.",
+    description: "Built market basket analysis tool to uncover product co-purchase patterns across large retail transaction datasets. Applied Apriori and FP-Growth algorithms to generate frequent itemsets and association rules. Optimized sparse matrix handling, reducing end-to-end execution time by 25% on high-cardinality transaction data.",
     link: "#",
-    tags: ["Power BI", "Pandas", "Seaborn", "Statistical Modeling"]
-  },
-  {
-    title: "RenderX Visuals Production Pipeline",
-    description: "Led end-to-end creative production across 10+ client and campus projects, managing scripting, filming, post-production, and on-time delivery for promotional media.",
-    link: "#",
-    tags: ["Creative Ops", "Video Production", "Editing", "Leadership"]
+    tags: ["Python", "Scikit-learn", "Association Rule Mining", "Data Analysis"]
   }
 ];
 
 export const EXPERIENCE: Experience[] = [
   {
     company: "RenderX Visuals",
-    role: "Founder and Lead Producer",
-    period: "January 2026 - Present",
+    role: "Founder & Lead Creator",
+    period: "December 2024 - Present",
     location: "India",
-    description: "Secured the official Creative Media Partner contract for Safalya Fest and delivered promotional content for a 2,000+ student audience while leading end-to-end production across 10+ projects."
-  },
-  {
-    company: "Samarth TMSL",
-    role: "Visual Effects Expert",
-    period: "August 2023 - Present",
-    location: "Kolkata, West Bengal, India",
-    description: "Lead motion graphics, VFX, and post-production for 5+ college events and media campaigns per semester, increasing average viewership by 30% across three consecutive semesters."
+    description: "Established RenderX Visuals specializing in high-fidelity video production and cinematic editing for digital platforms. Served as Official Creative Media Partner for college educational fests, leading end-to-end promotional strategy and branding."
   }
 ];
 
@@ -61,9 +54,26 @@ export const EDUCATION: Education[] = [
 ];
 
 export const SKILLS: Skill[] = [
+  {, WB",
+    degree: "B.Languages",
+    items: ["Python (Advanced)", "Java", "C", "SQL (Advanced Queries)"]
+  },
   {
-    category: "Technical Skills",
-    items: ["Python", "SQL", "Scikit-learn", "Pandas", "NumPy", "Power BI", "Flask", "Matplotlib"]
+    category: "Data Science Stack",
+    items: ["Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Seaborn", "Flask", "Streamlit", "FastAPI"]
+  },
+  {
+    category: "Tools & Platforms",
+    items: ["Power BI", "Git", "GitHub", "Jupyter Notebook", "AWS (S3)", "Snowflake"]
+  },
+  {
+    category: "Core Competencies",
+    items: ["Predictive Modeling", "Exploratory Data Analysis (EDA)", "Statistical Inference", "Association Rule Mining", "ML Deployment"]
+  },
+  {
+    category: "Certifications & Achievements",
+    items: ["HackerRank Python 5-Star Gold Badge", "Python Flask Framework (Scalable Web Applications & RESTful APIs)", "Team Kalakriti - Lead Creative Direction at Safalya Educational Fest
+    period: "ndas", "NumPy", "Power BI", "Flask", "Matplotlib"]
   },
   {
     category: "Certifications",
